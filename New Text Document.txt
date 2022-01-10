@@ -1,0 +1,11 @@
+#!/bin/bash
+# Author: Rhytham Shiroya <rshiroya@uncc.edu>
+# Description: This script will automate all of my tasks
+# so I can surf the web all day and get paid to do it!
+echo "Existing filename:"
+read filen
+echo "New filename:"
+read new_filen
+command="cp -i $filen $new_filen"
+echo "executing $command:"
+$command
